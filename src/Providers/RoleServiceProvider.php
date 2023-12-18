@@ -32,7 +32,7 @@ class RoleServiceProvider extends ServiceProvider
     {
         $mainPath = database_path('migrations');
         $paths = array_merge([
-            './vendor/tots/role-lumen/database/migrations'
+            './vendor/tots/role-laravel/database/migrations'
         ], [$mainPath]);
         $this->loadMigrationsFrom($paths);
     }
